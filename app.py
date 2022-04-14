@@ -376,7 +376,7 @@ app.layout = html.Div([
                 html.P(' Click here to access ',
                        style={'display': 'inline'}),
                 html.A('Covid-19 Web App',
-                       href='https://covid19dashboardsg.herokuapp.com/'),
+                       href='https://covid-19-dash-2022.herokuapp.com/'),
                 html.Hr(),
             ], className="twelve columns",
             style={'fontSize': 18, 'padding-top': 20}
