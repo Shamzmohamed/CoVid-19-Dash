@@ -8,7 +8,7 @@ The data utilised is the result of particular data treatment for the task at han
 
 ### Data Description :
 
-# `countries-aggregrated.csv`
+### `countries-aggregrated.csv`
 
 |Variable                 |Dtype   |Description |
 |:---|:---|:-----------|
@@ -17,3 +17,24 @@ The data utilised is the result of particular data treatment for the task at han
 |Confirmed                |integer |Confirmed Covid cases|
 |Recovered                |integer |Recovered from Covid|
 |Deaths                   |integer |Death due to Covid |
+
+###
+
+|Variable                 |Dtype   |Description |
+|:---|:---|:-----------|
+|UID                    |object  | Date|
+|iso2                   |object  | Date|
+|iso3                   |object  | Date|
+|code3                  |object  | Date|
+|FIPS                   |object  | Date|
+|Admin2                 |object  | Date|
+|Province_State         |object  | Date|
+|Country_Region         |object  | Date|
+|Lat                    |object  | Date|
+|Long                   |object  | Date|
+|Combined_Key           |object  | Date|
+|Population             |object  | Date|
+
+										
+
+
