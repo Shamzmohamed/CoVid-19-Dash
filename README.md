@@ -22,19 +22,26 @@ The data utilised is the result of particular data treatment for the task at han
 
 |Variable               |Dtype   |Description |
 |:---|:---|:-----------|
-|UID                    |object  | Unique ID|
-|iso2                   |object  | Date|
-|iso3                   |object  | Date|
-|code3                  |object  | Date|
-|FIPS                   |object  | Date|
-|Admin2                 |object  | Date|
-|Province_State         |object  | State in the Country|
-|Country_Region         |object  | Countries in the world|
-|Lat                    |object  | Latitude|
-|Long                   |object  | Longitude|
-|Combined_Key           |object  | Country|
-|Population             |object  | Population in the country |
-
-										
+|UID                    |integer| Unique ID|
+|iso2                   |object | Code of global region and countries|
+|iso3                   |object | Country Code|
+|code3                  |float  | Region code|
+|FIPS                   |float  | 5-digit Federal Information Processing Standard|
+|Admin2                 |object | County|
+|Province_State         |object | State in the Country|
+|Country_Region         |object | Countries in the world|
+|Lat                    |float  | Latitude|
+|Long                   |float  | Longitude|
+|Combined_Key           |object | Country|
+|Population             |float  | Population in the country |
 
 
+### `worldwide-aggregrate.csv`
+
+|Variable               |Dtype   |Description |
+|:---|:---|:-----------|
+|Date                     |object  | Date|
+|Confirmed                |integer |Confirmed Covid cases|
+|Recovered                |integer |Recovered from Covid|
+|Deaths                   |integer |Death due to Covid |
+|Increase rate            |integer |Covid spread rate|
