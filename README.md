@@ -18,22 +18,22 @@ The data utilised is the result of particular data treatment for the task at han
 |Recovered                |integer |Recovered from Covid|
 |Deaths                   |integer |Death due to Covid |
 
-###
+### `reference.csv`
 
-|Variable                 |Dtype   |Description |
+|Variable               |Dtype   |Description |
 |:---|:---|:-----------|
-|UID                    |object  | Date|
+|UID                    |object  | Unique ID|
 |iso2                   |object  | Date|
 |iso3                   |object  | Date|
 |code3                  |object  | Date|
 |FIPS                   |object  | Date|
 |Admin2                 |object  | Date|
-|Province_State         |object  | Date|
-|Country_Region         |object  | Date|
-|Lat                    |object  | Date|
-|Long                   |object  | Date|
-|Combined_Key           |object  | Date|
-|Population             |object  | Date|
+|Province_State         |object  | State in the Country|
+|Country_Region         |object  | Countries in the world|
+|Lat                    |object  | Latitude|
+|Long                   |object  | Longitude|
+|Combined_Key           |object  | Country|
+|Population             |object  | Population in the country |
 
 										
 
