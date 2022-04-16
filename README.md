@@ -4,5 +4,5 @@ In this project we have used python for the data analysis and visualization of C
 
 ### Data Source : 
 
-The data utilised is the result of particular data treatment for the task at hand, which is included in three .csv files. - countries-aggregrated.csv, reference.csv and worldwide-aggregrate.csv. These data can be checked here: [`Covid Datasets`](https://github.com/datasets/covid-19/tree/main/data).
+The data utilised is the result of particular data treatment for the task at hand, which is included in three .csv files :- countries-aggregrated.csv, reference.csv and worldwide-aggregrate.csv. These data can be checked here: [`Covid Datasets`](https://github.com/datasets/covid-19/tree/main/data).
 
